@@ -493,12 +493,17 @@ const Scene = ({text, actions}) => div({class: "scene"},
   )
 )
 
-const StatusBar = () => div({class: "status grid"},
+const StatusBar = () => div({class: "status-bar"},
+  div({class: "stat grid"},
    div("❤️ HP: ", PLAYER.hp),
    div("💰 Guld: ", PLAYER.gold),
-   div("⭐ Point: ", PLAYER.point),
+   div("⭐ Point: ", PLAYER.points)
+  ),
+  div({class: "stat grid"},
    div("🟢 Type: ", PLAYER.class),
-   div("🎒 Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join("")))
+   div("🎒 Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join(""))),
+   div("")
+  )
 )
 
 const game = div({id: "game", class: "container"},
