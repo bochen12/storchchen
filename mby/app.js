@@ -1,6 +1,6 @@
 "use strict";
 
-const {main, div, p, button, h1, h4} = van.tags;
+const {main, div, p, button, h1, h5} = van.tags;
 
 // GLOBAL STSATE VARIABLES
 
@@ -347,10 +347,10 @@ const SCENES = {
     return Scene({ text, actions });
   },
   scene24: () => {
-    const text = "Du er inde i den tætte skov. Du står ved en stor sten. Hvilken vej tager du?";
+    const text = "Du er inde i den tætte 🌳 skov. Du står ved en stor 🪨 sten. Hvilken vej tager du?";
     const actions = [
       {label: "⬅️ venstre", handler: () => goto("scene2")},
-      {label: "➡️ højre", handler: () => goto("scene24")}
+      {label: "➡️ højre", handler: () => goto("scene12")}
     ];
     return Scene({ text, actions });
   },
@@ -494,12 +494,19 @@ const Scene = ({text, actions}) => div({class: "scene"},
 )
 
 const StatusBar = () => div({class: "status"},
-   h4("❤️ HP: ", PLAYER.hp, " | 💰 Guld: ", PLAYER.gold, " | ⭐ Point: ", PLAYER.points, " | 🟢 Type: ", PLAYER.class),
-   h4("Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join("")))
+  div({class: "grid"},
+   h5("❤️ HP: ", PLAYER.hp),
+   h5("💰 Guld: ", PLAYER.gold),
+   h5("⭐ Point: ", PLAYER.point)
+  ),
+  div({class: "grid"},
+   h5("🎒 Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join(""))),
+   h5("🟢 Type: ", PLAYER.class)
+  )
 )
 
 const game = div({id: "game", class: "container"},
-    h1("🌙 Eventyret i Måneby 🏘️"),
+    h1({class: "title"}, "🌙 Eventyret i Måneby 🏘️"),
     StatusBar(),
     SCENES.intro()
 )
