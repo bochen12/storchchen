@@ -1,6 +1,6 @@
 "use strict";
 
-const {main, div, p, button, h1, h5} = van.tags;
+const {main, div, p, button, h1} = van.tags;
 
 // GLOBAL STSATE VARIABLES
 
@@ -493,16 +493,12 @@ const Scene = ({text, actions}) => div({class: "scene"},
   )
 )
 
-const StatusBar = () => div({class: "status"},
-  div({class: "grid"},
-   h5("❤️ HP: ", PLAYER.hp),
-   h5("💰 Guld: ", PLAYER.gold),
-   h5("⭐ Point: ", PLAYER.point)
-  ),
-  div({class: "grid"},
-   h5("🎒 Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join(""))),
-   h5("🟢 Type: ", PLAYER.class)
-  )
+const StatusBar = () => div({class: "status grid"},
+   div("❤️ HP: ", PLAYER.hp),
+   div("💰 Guld: ", PLAYER.gold),
+   div("⭐ Point: ", PLAYER.point),
+   div("🟢 Type: ", PLAYER.class),
+   div("🎒 Rygsæk: ", van.derive(() => PLAYER.inventory.val.map(item => item.img).join("")))
 )
 
 const game = div({id: "game", class: "container"},
