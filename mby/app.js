@@ -1,6 +1,4 @@
-"use strict";
-
-const {main, div, p, button, h1} = van.tags;
+const {main, div, p, button, h3} = van.tags;
 
 // GLOBAL STSATE VARIABLES
 
@@ -390,7 +388,7 @@ const SCENES = {
     return Scene({ text, actions });
   },
   scene29: () => {
-    const text = `Du har tabt kampen 🪦. Manden tager dig og putter dig i fængsel ⛓️. Du har tabt! Du fik ${PLAYER.points.val} point.`;
+    const text = `Du har tabt kampen ☠️. Manden tager dig og putter dig i fængsel ⛓️. Du har tabt! Du fik ${PLAYER.points.val} point.`;
     const actions = [{label: "⏮️ til start", handler: () => goto("intro")}];
     return Scene({ text, actions });
   },
@@ -401,7 +399,7 @@ const SCENES = {
     return Scene({ text, actions });
   },
   deathScene: () => {
-    const text = `Du er blevet dræbt 🪦. Spillet er slut. Du fik ${PLAYER.points.val} point.`;
+    const text = `Du er blevet dræbt ☠️. Spillet er slut. Du fik ${PLAYER.points.val} point.`;
     const actions = [{label: "⏮️ til start", handler: () => goto("intro")}];
     return Scene({ text, actions });
   }
@@ -454,7 +452,7 @@ function battle(battleScene, winScene, lossScene, enemy) {
     ENEMY.hp -= PLAYER.attackDamage;
     text += ` Dit angreb lykkedes 🎖️. Du skader fjenden ${PLAYER.attackDamage} ⚔️.`;
     if (ENEMY.hp <= 0) {
-      text += ` Fjenden er død 🪦. Du får ${enemy.points} point ⭐.`;
+      text += ` Fjenden er død ☠️. Du får ${enemy.points} point ⭐.`;
       PLAYER.points.val += enemy.points;
       actions = [{label: "⬆️ fortsæt", handler: () => { goto(winScene) }}];
       return Scene({ text, actions });
@@ -469,7 +467,7 @@ function battle(battleScene, winScene, lossScene, enemy) {
     PLAYER.hp.val -= enemy.attackDamage;
     text += ` Du får ${enemy.attackDamage} skade 💔.`;
     if (PLAYER.hp.val <= 0) {
-      text += ` Du har tabt 🪦.`
+      text += ` Du har tabt ☠️.`
       actions = [{label: "⬆️ fortsæt", handler: () => goto(lossScene)}];
       return Scene({ text, actions });
     }
@@ -507,7 +505,7 @@ const StatusBar = () => div({class: "status-bar"},
 )
 
 const game = div({id: "game", class: "container"},
-    h1({class: "title"}, "🌙 Eventyret i Måneby 🏘️"),
+    h3({class: "title"}, "🌙 Eventyret i Måneby 🏘️"),
     StatusBar(),
     SCENES.intro()
 )
