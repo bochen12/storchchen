@@ -301,7 +301,7 @@ const SCENES = {
     return Scene({ text, actions });
   },
   scene21: () => {
-    let text = "Du kommer forbi en lille bod 🛒. Du kan købe en bue 🏹 (5 skade) for 10 guld eller en stav 🦯 (2 skade) for 3 guld.";
+    let text = "Du kommer forbi en lille bod 🛒. Du kan købe en bue 🏹 (5 skade) for 10 guld eller en stav 🦯 (3 skade) for 3 guld.";
     let actions = [{label: "🏃 gå videre", handler: () => goto("scene7")}];
     if (PLAYER.gold.val < 3) {
       text += " Du har ikke råd til at købe noget ☹️.";
