@@ -1,0 +1,389 @@
+[
+  {
+    "id": "0",
+    "rels": {
+      "spouses": [
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ],
+      "children": [
+        "56874392-89ee-4d4f-b1b5-f2c3705c9b4c",
+        "2081c2d8-5ee6-443a-9770-119a22c027c4",
+        "0209eb3b-7eaf-4ca0-ab51-5385f611cf6a"
+      ],
+      "parents": [
+        "40996ad2-1ae5-46d9-984e-1a364d9c184e",
+        "2a40a2bb-98c0-422b-8ec1-31d8ae32bd4b"
+      ]
+    },
+    "data": {
+      "first name": "Bo",
+      "last name": "Chen",
+      "birthday": "1986",
+      "avatar": "",
+      "gender": "M"
+    }
+  },
+  {
+    "id": "154c4559-6af5-486b-878d-d31a37f9f2c2",
+    "data": {
+      "gender": "F",
+      "first name": "Signe Storch",
+      "last name": "Jakobsen",
+      "birthday": "1990",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "56874392-89ee-4d4f-b1b5-f2c3705c9b4c",
+        "2081c2d8-5ee6-443a-9770-119a22c027c4",
+        "0209eb3b-7eaf-4ca0-ab51-5385f611cf6a"
+      ],
+      "spouses": [
+        "0"
+      ],
+      "parents": [
+        "f25edcab-8cea-4f68-8165-6a179a82445f",
+        "3465397a-bc51-465a-9358-faa96e409b72"
+      ]
+    }
+  },
+  {
+    "id": "56874392-89ee-4d4f-b1b5-f2c3705c9b4c",
+    "data": {
+      "gender": "M",
+      "first name": "Georg 'Yang' Storch",
+      "last name": "Chen",
+      "birthday": "2015",
+      "avatar": ""
+    },
+    "rels": {
+      "parents": [
+        "0",
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ]
+    }
+  },
+  {
+    "id": "2081c2d8-5ee6-443a-9770-119a22c027c4",
+    "data": {
+      "gender": "M",
+      "first name": "Jakob Storch",
+      "last name": "Chen",
+      "birthday": "2018"
+    },
+    "rels": {
+      "parents": [
+        "0",
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ]
+    }
+  },
+  {
+    "id": "0209eb3b-7eaf-4ca0-ab51-5385f611cf6a",
+    "data": {
+      "gender": "F",
+      "first name": "Mimi Storch",
+      "last name": "Chen",
+      "birthday": "2021"
+    },
+    "rels": {
+      "parents": [
+        "0",
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ]
+    }
+  },
+  {
+    "id": "40996ad2-1ae5-46d9-984e-1a364d9c184e",
+    "data": {
+      "gender": "M",
+      "first name": "Bi Qian",
+      "last name": "Liu",
+      "birthday": "1957"
+    },
+    "rels": {
+      "children": [
+        "0"
+      ],
+      "spouses": [
+        "2a40a2bb-98c0-422b-8ec1-31d8ae32bd4b"
+      ]
+    }
+  },
+  {
+    "id": "2a40a2bb-98c0-422b-8ec1-31d8ae32bd4b",
+    "data": {
+      "gender": "F",
+      "first name": "Yu Ying",
+      "last name": "Chen",
+      "birthday": "1958"
+    },
+    "rels": {
+      "children": [
+        "0"
+      ],
+      "spouses": [
+        "40996ad2-1ae5-46d9-984e-1a364d9c184e",
+        "634b599c-4110-42e1-a6e0-e0f99f92f49b"
+      ]
+    }
+  },
+  {
+    "id": "f25edcab-8cea-4f68-8165-6a179a82445f",
+    "data": {
+      "gender": "M",
+      "first name": "Ove Bogetofte",
+      "last name": "Jakobsen",
+      "birthday": "1953"
+    },
+    "rels": {
+      "children": [
+        "154c4559-6af5-486b-878d-d31a37f9f2c2",
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc"
+      ],
+      "spouses": [
+        "3465397a-bc51-465a-9358-faa96e409b72"
+      ]
+    }
+  },
+  {
+    "id": "3465397a-bc51-465a-9358-faa96e409b72",
+    "data": {
+      "gender": "F",
+      "first name": "Vibeke",
+      "last name": "Storch",
+      "birthday": "1954"
+    },
+    "rels": {
+      "children": [
+        "154c4559-6af5-486b-878d-d31a37f9f2c2",
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc"
+      ],
+      "spouses": [
+        "f25edcab-8cea-4f68-8165-6a179a82445f"
+      ]
+    }
+  },
+  {
+    "id": "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+    "data": {
+      "gender": "M",
+      "first name": "Rasmus",
+      "last name": "Carter-Storch",
+      "birthday": "1982"
+    },
+    "rels": {
+      "parents": [
+        "3465397a-bc51-465a-9358-faa96e409b72",
+        "f25edcab-8cea-4f68-8165-6a179a82445f"
+      ],
+      "children": [
+        "7bdd5341-7d00-42b3-974b-231b1ca36244",
+        "9aa6d309-c0f3-4fc0-ad39-5ecee424ead2",
+        "1a6b70e1-7434-49a2-a1b2-be54165c939c"
+      ],
+      "spouses": [
+        "f9b97c01-b5aa-4d52-8487-afac6cff11b1"
+      ]
+    }
+  },
+  {
+    "id": "5a5379e5-3a70-4f33-a671-456b2c3329cc",
+    "data": {
+      "gender": "F",
+      "first name": "Ane Storch Jakobsen",
+      "last name": "Lundell",
+      "birthday": "1982"
+    },
+    "rels": {
+      "parents": [
+        "3465397a-bc51-465a-9358-faa96e409b72",
+        "f25edcab-8cea-4f68-8165-6a179a82445f"
+      ],
+      "children": [
+        "94dc8f7d-d41c-419a-afe9-7f45c807370c",
+        "0cfbe4f8-0710-49e5-a657-ac338bc41248",
+        "26d5c784-e8e0-4292-b7ba-c26ee846de7f"
+      ],
+      "spouses": [
+        "f1ba2e6d-7ea8-4ba7-b9ea-84ade9f92266"
+      ]
+    }
+  },
+  {
+    "id": "634b599c-4110-42e1-a6e0-e0f99f92f49b",
+    "data": {
+      "gender": "M",
+      "first name": "Christian",
+      "last name": "Kjeldbjerg",
+      "birthday": "1956"
+    },
+    "rels": {
+      "children": [
+        "8b07b730-8bf0-4281-81d1-590008fe6a9e",
+        "a65f4416-dacc-423e-80f4-9649a91b7d83"
+      ],
+      "spouses": [
+        "2a40a2bb-98c0-422b-8ec1-31d8ae32bd4b"
+      ]
+    }
+  },
+  {
+    "id": "8b07b730-8bf0-4281-81d1-590008fe6a9e",
+    "data": {
+      "gender": "M",
+      "first name": "Jakob",
+      "last name": "Kjeldbjerg",
+      "birthday": "1991"
+    },
+    "rels": {
+      "parents": [
+        "634b599c-4110-42e1-a6e0-e0f99f92f49b"
+      ]
+    }
+  },
+  {
+    "id": "a65f4416-dacc-423e-80f4-9649a91b7d83",
+    "data": {
+      "gender": "M",
+      "first name": "Peter",
+      "last name": "Kjeldbjerg",
+      "birthday": "1986"
+    },
+    "rels": {
+      "parents": [
+        "634b599c-4110-42e1-a6e0-e0f99f92f49b"
+      ]
+    }
+  },
+  {
+    "id": "f9b97c01-b5aa-4d52-8487-afac6cff11b1",
+    "data": {
+      "gender": "F",
+      "first name": "Emilia",
+      "last name": "Carter-Storch",
+      "birthday": ""
+    },
+    "rels": {
+      "children": [
+        "7bdd5341-7d00-42b3-974b-231b1ca36244",
+        "9aa6d309-c0f3-4fc0-ad39-5ecee424ead2",
+        "1a6b70e1-7434-49a2-a1b2-be54165c939c"
+      ],
+      "spouses": [
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef"
+      ]
+    }
+  },
+  {
+    "id": "7bdd5341-7d00-42b3-974b-231b1ca36244",
+    "data": {
+      "gender": "M",
+      "first name": "Bertram",
+      "last name": "Carter-Storch",
+      "birthday": "2008"
+    },
+    "rels": {
+      "parents": [
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+        "f9b97c01-b5aa-4d52-8487-afac6cff11b1"
+      ]
+    }
+  },
+  {
+    "id": "9aa6d309-c0f3-4fc0-ad39-5ecee424ead2",
+    "data": {
+      "gender": "M",
+      "first name": "Wilhelm",
+      "last name": "Carter-Storch",
+      "birthday": "2012"
+    },
+    "rels": {
+      "parents": [
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+        "f9b97c01-b5aa-4d52-8487-afac6cff11b1"
+      ]
+    }
+  },
+  {
+    "id": "1a6b70e1-7434-49a2-a1b2-be54165c939c",
+    "data": {
+      "gender": "F",
+      "first name": "Dagmar",
+      "last name": "Carter-Storch",
+      "birthday": "2016"
+    },
+    "rels": {
+      "parents": [
+        "a62a80c9-f491-4459-8f3f-c150f70c3bef",
+        "f9b97c01-b5aa-4d52-8487-afac6cff11b1"
+      ]
+    }
+  },
+  {
+    "id": "f1ba2e6d-7ea8-4ba7-b9ea-84ade9f92266",
+    "data": {
+      "gender": "M",
+      "first name": "Hans Magnus Henrik",
+      "last name": "Lundell",
+      "birthday": ""
+    },
+    "rels": {
+      "children": [
+        "94dc8f7d-d41c-419a-afe9-7f45c807370c",
+        "0cfbe4f8-0710-49e5-a657-ac338bc41248",
+        "26d5c784-e8e0-4292-b7ba-c26ee846de7f"
+      ],
+      "spouses": [
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc"
+      ]
+    }
+  },
+  {
+    "id": "94dc8f7d-d41c-419a-afe9-7f45c807370c",
+    "data": {
+      "gender": "M",
+      "first name": "Hans",
+      "last name": "Lundell",
+      "birthday": "2019"
+    },
+    "rels": {
+      "parents": [
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc",
+        "f1ba2e6d-7ea8-4ba7-b9ea-84ade9f92266"
+      ]
+    }
+  },
+  {
+    "id": "0cfbe4f8-0710-49e5-a657-ac338bc41248",
+    "data": {
+      "gender": "M",
+      "first name": "Bror",
+      "last name": "Lundell",
+      "birthday": "2021"
+    },
+    "rels": {
+      "parents": [
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc",
+        "f1ba2e6d-7ea8-4ba7-b9ea-84ade9f92266"
+      ]
+    }
+  },
+  {
+    "id": "26d5c784-e8e0-4292-b7ba-c26ee846de7f",
+    "data": {
+      "gender": "F",
+      "first name": "Anna",
+      "last name": "Lundell",
+      "birthday": "2024"
+    },
+    "rels": {
+      "parents": [
+        "5a5379e5-3a70-4f33-a671-456b2c3329cc",
+        "f1ba2e6d-7ea8-4ba7-b9ea-84ade9f92266"
+      ]
+    }
+  }
+]
