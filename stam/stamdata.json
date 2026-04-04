@@ -1,5 +1,36 @@
 [
   {
+    "id": "2081c2d8-5ee6-443a-9770-119a22c027c4",
+    "data": {
+      "gender": "M",
+      "first name": "Jakob Storch",
+      "last name": "Chen",
+      "birthday": "2018"
+    },
+    "rels": {
+      "parents": [
+        "0",
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ]
+    }
+  },
+  {
+    "id": "56874392-89ee-4d4f-b1b5-f2c3705c9b4c",
+    "data": {
+      "gender": "M",
+      "first name": "Georg 'Yang' Storch",
+      "last name": "Chen",
+      "birthday": "2015",
+      "avatar": ""
+    },
+    "rels": {
+      "parents": [
+        "0",
+        "154c4559-6af5-486b-878d-d31a37f9f2c2"
+      ]
+    }
+  },
+  {
     "id": "0",
     "rels": {
       "spouses": [
@@ -44,37 +75,6 @@
       "parents": [
         "f25edcab-8cea-4f68-8165-6a179a82445f",
         "3465397a-bc51-465a-9358-faa96e409b72"
-      ]
-    }
-  },
-  {
-    "id": "56874392-89ee-4d4f-b1b5-f2c3705c9b4c",
-    "data": {
-      "gender": "M",
-      "first name": "Georg 'Yang' Storch",
-      "last name": "Chen",
-      "birthday": "2015",
-      "avatar": ""
-    },
-    "rels": {
-      "parents": [
-        "0",
-        "154c4559-6af5-486b-878d-d31a37f9f2c2"
-      ]
-    }
-  },
-  {
-    "id": "2081c2d8-5ee6-443a-9770-119a22c027c4",
-    "data": {
-      "gender": "M",
-      "first name": "Jakob Storch",
-      "last name": "Chen",
-      "birthday": "2018"
-    },
-    "rels": {
-      "parents": [
-        "0",
-        "154c4559-6af5-486b-878d-d31a37f9f2c2"
       ]
     }
   },
@@ -207,7 +207,7 @@
       "gender": "F",
       "first name": "Ane Storch Jakobsen",
       "last name": "Lundell",
-      "birthday": "1982"
+      "birthday": "1984"
     },
     "rels": {
       "parents": [
@@ -274,9 +274,9 @@
     "id": "f9b97c01-b5aa-4d52-8487-afac6cff11b1",
     "data": {
       "gender": "F",
-      "first name": "Emilia",
+      "first name": "Emilia Louise",
       "last name": "Carter-Storch",
-      "birthday": ""
+      "birthday": "1984"
     },
     "rels": {
       "children": [
@@ -343,7 +343,7 @@
       "gender": "M",
       "first name": "Hans Magnus Henrik",
       "last name": "Lundell",
-      "birthday": ""
+      "birthday": "1982"
     },
     "rels": {
       "children": [
